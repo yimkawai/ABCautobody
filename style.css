@@ -3,12 +3,16 @@
     color: white;
 }
 
+.navbar-dark .navbar-nav .nav-link.active {
+    color: orange;
+}
+
 .navbar {
     transition: all 0.4s ease;
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/cover.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/img/cover.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -16,6 +20,15 @@
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+#hero h1 {
+    color: orange;
+}
+
+section {
+    padding-top: 80px;
+    padding: 80px;
 }
 
 .btn {
@@ -34,10 +47,31 @@
 }
 
 .btn-primary:hover {
-    color:rgb(255, 162, 0);;
+    color:rgb(255, 162, 0);
     background-color: black;
     border-color: black;
     border-radius: 100px;
 }
 
+.intro {
+    margin-bottom: 50px;
+}
 
+.intro .divider {
+    background-color: orange;
+    height: 4px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 0 auto 24px auto;
+}

@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC Auto Body Shop</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="75">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
     <header>
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -19,10 +23,10 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
                     <li class="nav-item"><a href="#quote" class="nav-link">Quote</a></li>
-                    <li class="nav-item"><a href="#getdirections" class="nav-link">Directions</a></li>
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
                     <li class="nav-item"><a href="#contactus" class="nav-link">Contact Us</a></li>
                 </ul>
               </div> <!-- end of collapse -->
@@ -34,25 +38,53 @@
         <section class="text-white text-center" id="hero">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <p>Opening at 9:00 AM</p>
-                        <h1 class="display-2">Downtown Toronto Auto Repair</h1>
-                        <p>We are known for providing high-quality collision and auto body repairs at a fair price. Free estimates are also available.</p>
+                    <div class="col-md-8 mx-auto">
+                        <p>Opening at 9AM (Mon-Sat)</p>
+                        <h1 class="display-2">Downtown Toronto<br>Auto Repair</h1>
+                        <p class="col-md-6 mx-auto">We are known for providing high-quality collision and auto body repairs at a fair price. Free estimates are also available.</p>
                         <button class="btn btn-primary my-4">Get Quote</button>
                     </div> <!-- col-12 -->
                 </div> <!-- row -->
             </div> <!-- container -->
         </section>
         <!-- section -->
-        <section class="about">
+        <section id="about" class="text-center bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-sm-6 intro mx-auto">
                         <h1>Why Choose Us?</h1>
-                        <div class="divider"></div>
+                        <div class="divider my-4"></div>
                         <p>ABC Auto Body is a hidden gem in downtown Toronto. The staff are very professional and honest. The service is efficient and reasonably priced.</p>
-                    </div> <!-- end of col-12 -->
+                    </div> <!-- end of col-6 -->
                 </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="info-box py-4 px-4 bg-white">
+                            <div class="icon-box"><i class="fa-solid fa-calculator-simple"></i></div>
+                            <h5 class="mb-3">Estimates</h5>
+                            <p>We are the service that estimates fairly tthe issues witth the car and gives you the precise help you need to make your car safe.</p>
+                        </div> <!-- end of info-box -->
+                    </div> <!-- end of col-lg-4 -->
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="info-box py-4 px-4 bg-white">
+                            <div class="icon-box"><i class="fa-solid fa-calculator-simple"></i></div>
+                            <h5 class="mb-3">Trusted</h5>
+                            <p>Lotts of satisfied clients rreturn to our service to get preventaive maintainace or get help from our skilled car mechanics.</p>
+                        </div> <!-- end of info-box -->
+                    </div> <!-- end of col-lg-4 -->
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="info-box py-4 px-4 bg-white">
+                            <div class="icon-box"><i class="fa-solid fa-calculator-simple"></i></div>
+                            <h5 class="mb-3">Guarantees</h5>
+                            <p>We guarantee the quality of the work performed. That's whhy we're ready to solve any problem that arose again for free.</p>
+                        </div> <!-- end of info-box -->
+                    </div> <!-- end of col-lg-4 -->
+                    
+                </div> <!-- end of row -->
+
+                
             </div> <!-- end of container -->
         </section>
     </main>

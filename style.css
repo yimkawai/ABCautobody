@@ -1,0 +1,43 @@
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar {
+    transition: all 0.4s ease;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btn {
+    padding: 14px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    color: black;
+    background-color: rgb(255, 174, 0);
+    border-color: rgb(255, 174, 0);
+    border-radius: 100px;
+}
+
+.btn-primary:hover {
+    color:rgb(255, 162, 0);;
+    background-color: black;
+    border-color: black;
+    border-radius: 100px;
+}
+
+

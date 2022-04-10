@@ -5,36 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC Auto Body Shop</title>
-    <link rel="stylesheet" href="style.scss">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="75">
     <header>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-md navbar-light">
-            <div class="container-xxl">
-                <a class="navbar-brand" href="#intro">
-                    <span class="fw-bold text-secondary">ABC AUTO BODY</span>
-                </a>
-                <!-- toggle button for mobile nav -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- navbar links -->
-                <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
-                        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
-                        <li class="nav-item"><a href="#quote" class="nav-link">Quote</a></li>
-                        <li class="nav-item"><a href="#getdirections" class="nav-link">Directions</a></li>
-                        <li class="nav-item d-md-none"><a href="#contactus" class="nav-link">Contact Us</a></li>
-                        <li class="nav-item ms-2 d-none d-md-inline"><a href="#contactus" class="btn btn-secondary">Contact Us</a></li>
-                    </ul>
-                </div> <!-- collapse -->
-            </div> <!-- container-xxl -->
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-lg">
+              <a class="navbar-brand" href="#">ABC AUTO BODY</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#quote" class="nav-link">Quote</a></li>
+                    <li class="nav-item"><a href="#getdirections" class="nav-link">Directions</a></li>
+                    <li class="nav-item"><a href="#contactus" class="nav-link">Contact Us</a></li>
+                </ul>
+              </div> <!-- end of collapse -->
+            </div> <!-- end of container-lg -->
+          </nav>
     </header>
-    <script src="main.js"></script>
+    <main>
+        <!-- hero -->
+        <section class="text-white text-center" id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Opening at 9:00 AM</p>
+                        <h1 class="display-2">Downtown Toronto Auto Repair</h1>
+                        <p>We are known for providing high-quality collision and auto body repairs at a fair price. Free estimates are also available.</p>
+                        <button class="btn btn-primary my-4">Get Quote</button>
+                    </div> <!-- col-12 -->
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </section>
+        <!-- section -->
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Why Choose Us?</h1>
+                        <div class="divider"></div>
+                        <p>ABC Auto Body is a hidden gem in downtown Toronto. The staff are very professional and honest. The service is efficient and reasonably priced.</p>
+                    </div> <!-- end of col-12 -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 </html>
+

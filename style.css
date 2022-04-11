@@ -98,7 +98,7 @@ section {
 
 
 #estimate {
-    padding-top: 200px;
+    padding: 150px 0;
 }
 
 #estimate button {
@@ -109,4 +109,26 @@ section {
 
 #estimate button:hover {
     color: white;
+}
+
+#testimonals {
+    background-color: orange;
+    padding-top: 100px;
+
+}
+
+#testimonals .divider {
+    background-color: white;
+    height: 3px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+#testimonals .info-box {
+    background: #222529d0;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }

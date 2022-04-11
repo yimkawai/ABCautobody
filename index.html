@@ -89,16 +89,43 @@
         </section>
         <!-- estimate -->
         <section id="estimate" class="text-white bg-dark">
-            <div class="conttainer-fluid">
+            <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-lg-6 text-center">
+                    <div class="col-lg-5 mb-5 text-center">
                         <h1>Online Estimate</h1>
                         <div class="divider my-4"></div>
                         <p>For many Toronto residents, the convenience of getting an online auto body quote can help to ease the stress that is experienced after an accident. At Alps Auto Repair Inc, we provide free online auto body estimates for damages that have occurred after a collision or other road accident. We can assess the general scale of the repairs and provide an outline of cost and time that will be involved in the process. This gives our customers the chance to file with insurance and make the best decision for action with an online auto body estimate quote.</p>
                     </div> <!-- end of col-6-->
 
                     <div class="col-lg-6">
-                        <form>
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="fullName" class="form-lable pb-2">Full Name</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="John Stone" required>
+                            </div> <!-- col-md-6-->
+                            <div class="col-md-6">
+                                <label for="phoneNumber" class="form-label">Phone Number</label>
+                                <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (647) 000-123" required>
+                            </div> <!-- col-md-6-->
+                            <div class="col-md-6">
+                                <label for="emailInfo" class="form-label">E-mail</label>
+                                <input type="text" class="form-control" id="emailInfo" placeholder="john@email.com"required>
+                            </div> <!-- col-md-6 -->
+                            <div class="col-md-6">
+                                <label for="vin" class="form-label">VIN #</label>
+                                <input type="text" class="form-control" id="vin" placeholder="1ABCD23EFGH456789" required>
+                            </div> <!-- col-md-6 -->
+                            <div class="col-md-12">
+                                <label for="description" class="form-label pb-1">Description of Damage, Question?</label>
+                                <textarea class="form-control" id="description" rows="4"></textarea>
+                            </div> <!-- col-md-12 -->
+                            <div class="col-md-12">
+                                <label for="picture" class="form-label">Damage Pictures</label>
+                                <div class="input-group">
+                                    <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                    <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+                                  </div> <!-- col-md-12 -->
+                            </div>
                         </form>
                     </div> <!-- end of col-6-->
                 </div> <!-- end of row-->

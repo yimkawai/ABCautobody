@@ -40,7 +40,9 @@ section {
     background: linear-gradient(to top,#222529,transparent);
 }
 
-.btn {
+
+
+#hero .btn {
     padding: 14px 32px;
     font-size: 14px;
     font-weight: 600;
@@ -94,3 +96,17 @@ section {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+
+#estimate {
+    padding-top: 200px;
+}
+
+#estimate button {
+    background-color: orange;
+    border: orange;
+    color: black;
+}
+
+#estimate button:hover {
+    color: white;
+}

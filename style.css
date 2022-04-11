@@ -26,6 +26,7 @@
     color: orange;
 }
 
+
 section {
     padding-top: 60px;
     padding: 60px;
@@ -96,7 +97,7 @@ section {
 
 
 #estimate {
-    padding: 150px 0;
+    padding: 60px 0;
 }
 
 #estimate button {
@@ -110,23 +111,24 @@ section {
 }
 
 #testimonials {
-    background-color: orange;
     padding-top: 100px;
 
 }
 
-#testimonials .divider {
-    background-color: white;
-    height: 3px;
-    width: 150px;
-    margin: 0 auto;
-}
-
 #testimonials .info-box {
-    background: #222529d0;
+    background: rgba(255, 255, 255, 0.32);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 14.5px );
     -webkit-backdrop-filter: blur( 14.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#contactus {
+    background-color: orange;
+    padding-top: 60px;
+}
+
+#contactus .col-sm-4 {
+    padding-top: 20px;
 }

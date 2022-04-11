@@ -41,23 +41,21 @@ section {
 }
 
 
-
-#hero .btn {
+#hero a {
     padding: 14px 32px;
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-}
-
-.btn-primary {
+    text-decoration: none;
     color: black;
     background-color: rgb(255, 174, 0);
     border-color: rgb(255, 174, 0);
     border-radius: 100px;
 }
 
-.btn-primary:hover {
+
+#hero a:hover {
     color:rgb(255, 162, 0);
     background-color: black;
     border-color: black;
@@ -111,20 +109,20 @@ section {
     color: white;
 }
 
-#testimonals {
+#testimonials {
     background-color: orange;
     padding-top: 100px;
 
 }
 
-#testimonals .divider {
+#testimonials .divider {
     background-color: white;
     height: 3px;
     width: 150px;
     margin: 0 auto;
 }
 
-#testimonals .info-box {
+#testimonials .info-box {
     background: #222529d0;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 14.5px );

@@ -11,7 +11,7 @@
 }
 
 #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(https://github.com/yimkawai/ABCautobody/blob/main/img/cover.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(https://github.com/yimkawai/ABCautobody/blob/main/img/cover.jpg?raw=true);
     background-position: center;
     background-size: cover;
     height: 100vh;
